@@ -54,11 +54,9 @@ a:visited{
 a:hover{
     color: rgb(245, 178, 168);
 }
-@media screen and (MAX-width: 768px) {
+@media screen and (max-width: 768px) {
     /* ここに通常のCSSを書きます。以下は一例です */
-    #parent {
-         display: block;
-    }
+    #parent { flex-direction: column; }
     h2{
         font-size: 30px;
     }
